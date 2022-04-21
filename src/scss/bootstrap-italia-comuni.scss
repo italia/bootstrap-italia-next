@@ -1,5 +1,9 @@
-$primary-h: 110;
-$primary-s: 200;
-$primary-b: 180;
+// custom variables
+$primary-h: 120;
+$primary-s: 100;
+$primary-b: 30;
 
-@import "./bootstrap-italia.scss"
+@import "./bootstrap-italia.scss";
+
+// splide carousel
+@import "../../node_modules/@splidejs/splide/dist/css/splide-core.min";
