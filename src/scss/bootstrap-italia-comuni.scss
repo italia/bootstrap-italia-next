@@ -3,6 +3,8 @@ $primary-h: 160;
 $primary-s: 100;
 $primary-b: 60;
 
+//buttons custom vars
+
 // bootstrap italia version variable
 // useful to check for the current version
 @import 'custom/version';
@@ -16,6 +18,14 @@ $header-center-bg-color: $primary;
 $header-slim-bg-color: $primary-a9;
 
 $card-link-color: $primary;
+
+$btn-comuni-primary-hover: #fff;
+
+$footer-comuni-bg-color: #202a2e;
+
+$link-list-comuni-color: #455a64;
+
+$card-comuni-bg-dark: #2c2c2c;
 
 //variables
 @import 'variables';
@@ -176,6 +186,8 @@ $card-link-color: $primary;
 @import 'utilities/focus';
 @import 'utilities/icons';
 
-
 // splide carousel
-@import "../../node_modules/@splidejs/splide/dist/css/splide-core.min";
+@import '../../node_modules/@splidejs/splide/dist/css/splide-core.min';
+
+// override comuni
+@import 'override-comuni';

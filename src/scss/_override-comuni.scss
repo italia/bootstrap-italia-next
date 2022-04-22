@@ -1,0 +1,31 @@
+//-modifica stili per template comuni non modificabili con la redifinizione delle variabili colore
+
+//BUTTONS
+.btn-primary,
+.btn-primary:hover {
+  color: $btn-comuni-primary-hover;
+}
+
+//FOOTER
+.it-footer-main {
+  background-color: $footer-comuni-bg-color;
+}
+.it-footer-small-prints {
+  background-color: $footer-comuni-bg-color;
+}
+
+//card bg
+.card.card-bg-dark {
+  background-color: $card-comuni-bg-dark;
+}
+
+//card-teaser exeption
+.card-teaser .link-list-wrapper ul li a .icon-primary {
+  fill: $link-list-comuni-color !important;
+}
+
+//linklist
+.link-list-wrapper ul li a,
+.link-list-wrapper ul li a span {
+  color: $link-list-comuni-color;
+}
