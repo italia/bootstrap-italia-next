@@ -1,5 +1,8 @@
 //-modifica stili per template comuni non modificabili con la redifinizione delle variabili colore
-
+//body
+body {
+  color: $neutral-1-a7;
+}
 //BUTTONS
 .btn-primary,
 .btn-primary:hover {
@@ -33,5 +36,14 @@
 .link-list-wrapper.menu-link-list .h3:after,
 .link-list-wrapper.menu-link-list h4:after,
 .link-list-wrapper.menu-link-list .h4:after {
-  background-color: $primary
+  background-color: $primary;
+}
+
+//card texts color
+.card .card-body h5.card-title,
+.card .card-body .card-title.h5 {
+  color: $neutral-1-a7;
+}
+.text-primary {
+  color: $neutral-1-a7 !important;
 }
