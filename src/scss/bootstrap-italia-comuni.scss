@@ -1,7 +1,16 @@
 // color custom variables
+
+/*figma color
+primary: #007A52;
+primary dark: #00402B;
+primary light: #56D6AB;
+primary lighter: #F0F8F5;
+*/
+
+// primary #007A52
 $primary-h: 160;
 $primary-s: 100;
-$primary-b: 60;
+$primary-b: 48;
 
 //buttons custom vars
 
@@ -15,7 +24,7 @@ $primary-b: 60;
 
 // color custom variables
 $header-center-bg-color: $primary;
-$header-slim-bg-color: $primary-a9;
+$header-slim-bg-color: $primary-a11; // #004d33 - should be #00402B
 
 $card-link-color: $primary;
 
