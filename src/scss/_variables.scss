@@ -297,6 +297,7 @@ $link-list-checkbox-icon-right: 35px;
 $link-list-toggle-margin: 8px;
 $link-list-icon-v-padding: 5px;
 $link-list-v-padding-l: 0.45em;
+$link-list-hover-color: $primary-a5 !default;
 
 // Megamenu
 $megamenu-padding-top-desktop: $v-gap * 4;
@@ -629,6 +630,9 @@ $timeline-pin-circle-size: 48px;
 $timeline-pin-circle-border: $v-gap solid $white !default;
 $timeline-content-padding: 18px 0 18px 40px;
 $timeline-content-padding-reverse: 18px 40px 18px 18px;
+
+//Sections
+$section-header-background-color: $primary-a7 !default;
 
 // Grid breakpoints
 // Define the minimum dimensions at which your layout will change,

@@ -24,7 +24,9 @@ $primary-b: 48;
 
 // color custom variables
 $header-center-bg-color: $primary;
-$header-slim-bg-color: $primary-a11; // #004d33 - should be #00402B
+$header-slim-bg-color: #006e4a;
+
+$section-header-background-color: $primary-a10;
 
 $card-link-color: $primary;
 
@@ -33,6 +35,7 @@ $btn-comuni-primary-hover: #fff;
 $footer-comuni-bg-color: #202a2e;
 
 $link-list-comuni-color: #455a64;
+$link-list-hover-color: $primary;
 
 $card-comuni-bg-dark: #2c2c2c;
 
