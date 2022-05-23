@@ -762,9 +762,9 @@ Per avere modali che appaiono semplicemente senza dissolvenza, rimuovi la classe
 Le modali hanno due dimensioni opzionali, disponibili tramite classi da posizionare su un `.modal-dialog`. Queste dimensioni entrano in gioco in determinati breakpoint per evitare barre di scorrimento orizzontali su finestre più strette.
 
 <div class="bd-example">
-  <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target=".bd-example-modal-sm">Modale piccola</button>
-  <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target=".bd-example-modal-lg">Modale grande</button>
-  <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target=".bd-example-modal-xl">Modale molto grande</button>
+  <button type="button" class="btn btn-primary mb-1" data-bs-toggle="modal" data-bs-target=".bd-example-modal-sm">Modale piccola</button>
+  <button type="button" class="btn btn-primary mb-1" data-bs-toggle="modal" data-bs-target=".bd-example-modal-lg">Modale grande</button>
+  <button type="button" class="btn btn-primary mb-1" data-bs-toggle="modal" data-bs-target=".bd-example-modal-xl">Modale molto grande</button>
 </div>
 
 ```html
