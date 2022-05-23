@@ -390,7 +390,6 @@ Di seguito un esempio di form validato con Just Validate.
         },
       ])
       .onFail((fields) => {
-        //$('errorMsgContainer').alert();
         errorWrapper.innerHTML = '';
         errorWrapper.innerHTML = errorMessage
       })
