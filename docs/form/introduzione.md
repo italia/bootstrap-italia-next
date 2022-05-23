@@ -22,7 +22,7 @@ Per raggruppare correttamente gli elementi di un modulo form è bene utilizzare 
 
 Strutture più complesse possono essere costruite usando il sistema a griglia, da utilizzare per layout che richiedono più colonne, larghezze diverse e opzioni di allineamento aggiuntive. La classe `.row` ne assicura una corretta spaziatura.
 
-Si può scegliere di dare una dimensione ad una colonna, ad esempio dandogli una classe `.col-7`, mentre le restanti `.col` si divideranno il resto dello spazio.
+Si può scegliere di dare una dimensione ad una colonna, ad esempio dandogli una classe `.col-md-6` per ottenere una certo design dal breakpoint `md` in su, mentre le restanti `.col-md` si divideranno il resto dello spazio.
 
 {% capture example %}
 
@@ -38,15 +38,15 @@ Si può scegliere di dare una dimensione ad una colonna, ad esempio dandogli una
     </div>
   </div>
   <div class="row">
-    <div class="form-group col-7">
-      <label for="Citta">Città</label>
-      <input type="text" class="form-control" id="Citta">
-    </div>
-    <div class="form-group col">
+    <div class="form-group col-md-6">
       <label for="Comune">Comune</label>
       <input type="text" class="form-control" id="Comune">
     </div>
-    <div class="form-group col">
+    <div class="form-group col-md">
+      <label for="Provincia">Provincia</label>
+      <input type="text" class="form-control" id="Provincia">
+    </div>
+    <div class="form-group col-md">
       <label for="CAP">CAP</label>
       <input type="text" class="form-control" id="CAP">
     </div>
