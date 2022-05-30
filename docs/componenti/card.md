@@ -15,6 +15,15 @@ Di default le card occupano l'intero spazio orizzontale del loro elemento conten
 Negli esempi seguenti le card sono all'interno di una struttura colonnare di Bootstrap.  
 L'inizio della card vera e propria è segnalata dal commento `<!--start card-->`.
 
+{% capture callout %}
+
+#### Accessibilità
+
+Negli esempi è stato utilizzato il tag `h3` per il titolo delle card. <br>
+Utilizzare il tag `h` corretto a seconda del contesto.
+
+{% endcapture %}{% include callout.html content=callout type="accessibility" %}
+
 Esempio di card semplice con titolo e testo:
 
 {% capture example %}
@@ -25,7 +34,7 @@ Esempio di card semplice con titolo e testo:
     <div class="card-wrapper">
       <div class="card">
         <div class="card-body">
-          <h5 class="card-title">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor…</h5>
+          <h3 class="card-title h5 no_toc">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor…</h3>
           <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
         </div>
       </div>
@@ -45,7 +54,7 @@ Esempio di card semplice con titolo e testo:
     <div class="card-wrapper">
       <div class="card">
         <div class="card-body">
-          <h5 class="card-title">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor…</h5>
+          <h3 class="card-title h5 no_toc">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor…</h3>
           <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
         </div>
       </div>
@@ -57,7 +66,7 @@ Esempio di card semplice con titolo e testo:
     <div class="card-wrapper">
       <div class="card">
         <div class="card-body">
-          <h5 class="card-title">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor…</h5>
+          <h3 class="card-title h5 no_toc">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor…</h3>
           <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
         </div>
       </div>
@@ -69,7 +78,7 @@ Esempio di card semplice con titolo e testo:
     <div class="card-wrapper">
       <div class="card">
         <div class="card-body">
-          <h5 class="card-title">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor…</h5>
+          <h3 class="card-title h5 no_toc">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor…</h3>
           <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
         </div>
       </div>
@@ -104,7 +113,7 @@ Quando si utilizzano link con label generiche come “Leggi tutto” o “Leggi 
             <a class="category" href="#">Categoria</a>
             <span class="data">10/12/{{ 'now' | date: "%Y" }}</span>
           </div>
-          <h5 class="card-title big-heading">Lorem ipsum dolor sit amet, consectetur adipiscing elit…</h5>
+          <h3 class="card-title big-heading h5 no_toc">Lorem ipsum dolor sit amet, consectetur adipiscing elit…</h3>
           <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
           <span class="card-signature">di Federico De Paolis</span>
           <a class="read-more" href="#">
@@ -142,7 +151,7 @@ Per inserire la categorizzazione con relativa icona, usare l'elemento `.category
             <span class="text">Categoria<br>nome</span>
           </div>
           <a href="#">
-            <h5 class="card-title">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor…</h5>
+            <h3 class="card-title h5 no_toc">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor…</h3>
           </a>
           <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
         </div>
@@ -177,7 +186,7 @@ semplici utilizzare la classe `.simple-link`.
             <span class="text">(2) File</span>
           </div>
           <a href="#">
-            <h5 class="card-title">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor…</h5>
+            <h3 class="card-title h5 no_toc">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor…</h3>
             <h6 class="card-subtitle">Sottotitolo</h6>
           </a>
           <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
@@ -194,7 +203,7 @@ semplici utilizzare la classe `.simple-link`.
 
 Le card con ombreggiatura sono caratterizzate dalle classi:
 
-- **`.card-space`:** utilizzata nel div più esterno `card-wrapper` serve a distanziare le card nella loro versione mobile.  
+- **`.card-space`:** utilizzata nel div più esterno `card-wrapper` serve a distanziare le card nella loro versione mobile.
 - **`.card-bg`:** utilizzata nel div `card` serve a creare background e ombra della card.
 
 {% capture example %}
@@ -205,7 +214,7 @@ Le card con ombreggiatura sono caratterizzate dalle classi:
     <div class="card-wrapper card-space">
       <div class="card card-bg">
         <div class="card-body">
-          <h5 class="card-title">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor…</h5>
+          <h3 class="card-title h5 no_toc">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor…</h3>
           <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
           <a class="read-more" href="#">
             <span class="text">Leggi di più</span>
@@ -226,7 +235,7 @@ Le card con ombreggiatura sono caratterizzate dalle classi:
 
 Le card con ombreggiatura grandi sono caratterizzate dalle classi:
 
-- **`.card-bg`:** utilizzata nel div `card` serve a creare background e ombra della card.  
+- **`.card-bg`:** utilizzata nel div `card` serve a creare background e ombra della card.
 - **`.card-big`:** utilizzata nel div `card` serve al dimensionamento dei suoi contenuti.
 
 Nell'esempio seguente è stata inserita un icona grande prima del titolo della card,
@@ -247,7 +256,7 @@ il div contenente l'icona è di classe `.top-icon`.
               <use href="{{ site.baseurl }}/dist/svg/sprites.svg#it-card"></use>
             </svg>
           </div>
-          <h5 class="card-title">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor…</h5>
+          <h3 class="card-title h5 no_toc">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor…</h3>
           <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
           <a class="read-more" href="#">
             <span class="text">Leggi di più</span>
@@ -286,7 +295,7 @@ Per creare un bordo di colore primario a chiusura card, potete utilizzare la cla
           <span>Sviluppo</span>
         </div>
         <div class="card-body">
-          <h5 class="card-title">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor…</h5>
+          <h3 class="card-title h5 no_toc">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor…</h3>
           <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
           <a class="read-more" href="#">
             <span class="text">Leggi di più</span>
@@ -322,7 +331,7 @@ Utilizzate la classe `.no-after` applicata al div `.card` se volete ridurre lo s
             <a class="card-tag" href="#">Tag</a>
             <span class="data">10/10/{{'now' | date: "%Y"}}</span>
           </div>
-          <h5 class="card-title">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor…</h5>
+          <h3 class="card-title h5 no_toc">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor…</h3>
           <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
           <div class="it-card-footer">
             <span class="card-signature">di Federico De Paolis</span>
@@ -360,7 +369,7 @@ Qualora le proporzioni non fossero esatte, l'immagine occuperà il massimo dell'
           </div>
         </div>
         <div class="card-body">
-          <h5 class="card-title">Lorem ipsum dolor sit amet, consectetur adipiscing elit…</h5>
+          <h3 class="card-title h5 no_toc">Lorem ipsum dolor sit amet, consectetur adipiscing elit…</h3>
           <p class="card-text"></p>
           <a class="read-more" href="#">
             <span class="text">Leggi di più</span>
@@ -386,7 +395,7 @@ Qualora le proporzioni non fossero esatte, l'immagine occuperà il massimo dell'
           </div>
         </div>
         <div class="card-body">
-          <h5 class="card-title">Lorem ipsum dolor sit amet, consectetur adipiscing elit…</h5>
+          <h3 class="card-title h5 no_toc">Lorem ipsum dolor sit amet, consectetur adipiscing elit…</h3>
           <p class="card-text"></p>
           <a class="read-more" href="#">
             <span class="text">Leggi di più</span>
@@ -415,7 +424,7 @@ Qualora le proporzioni non fossero esatte, l'immagine occuperà il massimo dell'
             </div>
           </div>
           <div class="card-body">
-            <h5 class="card-title">Lorem ipsum dolor sit amet, consectetur adipiscing elit…</h5>
+            <h3 class="card-title h5 no_toc">Lorem ipsum dolor sit amet, consectetur adipiscing elit…</h3>
             <p class="card-text"></p>
               <a class="read-more" href="#">
               <span class="text">Leggi di più</span>
@@ -444,7 +453,7 @@ Qualora le proporzioni non fossero esatte, l'immagine occuperà il massimo dell'
             </div>
           </div>
           <div class="card-body">
-            <h5 class="card-title">Lorem ipsum dolor sit amet, consectetur adipiscing elit…</h5>
+            <h3 class="card-title h5 no_toc">Lorem ipsum dolor sit amet, consectetur adipiscing elit…</h3>
             <p class="card-text"></p>
               <a class="read-more" href="#">
               <span class="text">Leggi di più</span>
@@ -483,7 +492,7 @@ Le proporzioni ottimali dell'immagine per questa card sono 17:21.
         <div class="card-body">
           <div class="head-tags"><span class="data">10/10/{{'now' | date: "%Y"}}</span>
           </div>
-          <h5 class="card-title">Lorem ipsum dolor sit amet, consectetur adipiscing elit…</h5>
+          <h3 class="card-title h5 no_toc">Lorem ipsum dolor sit amet, consectetur adipiscing elit…</h3>
         </div>
       </a>
     </div>
@@ -504,7 +513,7 @@ Come per ogni elemento, è possibile aggiungere le classi `rounded` o `shadow` p
   <!--start card-->
   <div class="card card-teaser">
     <div class="card-body">
-      <h5 class="card-title">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor…</h5>
+      <h3 class="card-title h5 no_toc">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor…</h3>
       <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
     </div>
   </div>
@@ -512,7 +521,7 @@ Come per ogni elemento, è possibile aggiungere le classi `rounded` o `shadow` p
   <!--start card-->
   <div class="card card-teaser rounded shadow">
     <div class="card-body">
-      <h5 class="card-title">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor…</h5>
+      <h3 class="card-title h5 no_toc">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor…</h3>
       <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
     </div>
   </div>
@@ -520,12 +529,12 @@ Come per ogni elemento, è possibile aggiungere le classi `rounded` o `shadow` p
   <!--start card-->
   <div class="card card-teaser rounded shadow">
     <div class="card-body">
-      <h5 class="card-title">
+      <h3 class="card-title h5 no_toc">
         <svg class="icon">
           <use href="{{ site.baseurl }}/dist/svg/sprites.svg#it-clip"></use>
         </svg>
         <a href="#">Lorem ipsum dolor sit amet</a>
-      </h5>
+      </h3>
       <div class="card-text">
         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor…</p>
       </div>

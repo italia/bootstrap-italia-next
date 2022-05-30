@@ -53,21 +53,23 @@ export default [
   },
   // ESM and CJS
   {
-    input: 'src/js/bootstrap-italia.js',
+    input: 'src/js/bootstrap-italia.esm.js',
     output: [
       {
-        format: "es",
-        exports: "named",
+        format: 'es',
+        exports: 'named',
         sourcemap: true,
         dir: 'dist',
         // chunkFileNames: '[name].js'
         preserveModules: true,
         // // Optionally strip useless path from source
         // preserveModulesRoot: 'lib',
-      }
+      },
     ],
     // plugins: [
-    //   commonjs(),
+    //   injectProcessEnv({
+    //     NODE_ENV: 'production',
+    //   }),
     // ],
     // manualChunks: id => path.parse(id).name
   },

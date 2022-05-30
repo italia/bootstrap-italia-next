@@ -11,6 +11,9 @@ toc: true
  .bd-example {
    background-color: #F7F7F9;
  }
+ .bg-override {
+   fill:#06c !important;
+ }
 </style>
 
 L'header di un sito della Pubblica Amministrazione è solitamente composto di 3 elementi principali:
@@ -21,6 +24,7 @@ L'header di un sito della Pubblica Amministrazione è solitamente composto di 3 
   (<svg class="icon icon-primary"><use href="{{ site.baseurl }}/dist/svg/sprites.svg#it-burger"></use></svg>) per dispositivi mobili.
 
 {% capture callout %}
+
 #### Accessibilità
 
 Condierando l'importanza dell'Header per la navigazione di un sito, si consiglia di seguire attentamente gli esempi per quanto riguarda l'utilizzo di attributi `ARIA` e labelling accessibile.
@@ -413,7 +417,7 @@ Per cambiare tema all'header centrale è sufficiente aggiungere la classe `theme
         <!--start nav-->
         <nav class="navbar navbar-expand-lg has-megamenu" aria-label="Navigazione principale">
           <button class="custom-navbar-toggler" type="button" aria-controls="nav1" aria-expanded="false" aria-label="Mostra/Nascondi la navigazione" data-bs-toggle="navbarcollapsible" data-bs-target="#nav1">
-            <svg class="icon">
+            <svg class="icon bg-override">
               <use href="{{site.baseurl}}/dist/svg/sprites.svg#it-burger"></use>
             </svg>
           </button>
@@ -519,7 +523,7 @@ I'Header Nav ha due versioni, una chiara ("light") e una scura ("dark"). Lo stil
 Per modificare la versione dell'Header Nav è sufficiente aggiungere le seguenti classi al tag `<nav class="it-header-navbar-wrapper">`:
 
 - La classe **`.theme-dark-mobile`** modifica unicamente la versione **mobile** dell'Header Nav, impostando il background di colore primario, testi e link bianchi.
-- La classe **`.theme-light-desktop`** modifica unicamente la versione **desktop** dell'Header Nav impostando un background bianco, testi e links di colore primario. Gli elementi **Dropdown** e **Megamenu** assumono background di colore primario, testi e link bianchi.
+- La classe **`.theme-light-desk`** modifica unicamente la versione **desktop** dell'Header Nav impostando un background bianco, testi e links di colore primario. Gli elementi **Dropdown** e **Megamenu** assumono background di colore primario, testi e link bianchi.
 
 #### Header Nav standard
 
@@ -532,7 +536,7 @@ Per modificare la versione dell'Header Nav è sufficiente aggiungere le seguenti
         <!--start nav-->
         <nav class="navbar navbar-expand-lg has-megamenu" aria-label="Navigazione principale">
           <button class="custom-navbar-toggler" type="button" aria-controls="nav0" aria-expanded="false" aria-label="Mostra/Nascondi la navigazione" data-bs-toggle="navbarcollapsible" data-bs-target="#nav0">
-            <svg class="icon">
+            <svg class="icon bg-override">
               <use href="{{site.baseurl}}/dist/svg/sprites.svg#it-burger"></use>
             </svg>
           </button>
@@ -639,7 +643,7 @@ Per modificare la versione dell'Header Nav è sufficiente aggiungere le seguenti
         <!--start nav-->
         <nav class="navbar navbar-expand-lg has-megamenu" aria-label="Navigazione principale">
           <button class="custom-navbar-toggler" type="button" aria-controls="nav2" aria-expanded="false" aria-label="Mostra/Nascondi la navigazione" data-bs-toggle="navbarcollapsible" data-bs-target="#nav2">
-            <svg class="icon">
+            <svg class="icon bg-override">
               <use href="{{site.baseurl}}/dist/svg/sprites.svg#it-burger"></use>
             </svg>
           </button>
@@ -855,7 +859,7 @@ Al menù di navigazione principale può essere aggiunto anche un menù di naviga
         <!--start nav-->
         <nav class="navbar navbar-expand-lg has-megamenu" aria-label="Navigazione principale">
           <button class="custom-navbar-toggler" type="button" aria-controls="nav4" aria-expanded="false" aria-label="Mostra/Nascondi la navigazione" data-bs-toggle="navbarcollapsible" data-bs-target="#nav4">
-            <svg class="icon">
+            <svg class="icon bg-override">
               <use href="{{site.baseurl}}/dist/svg/sprites.svg#it-burger"></use>
             </svg>
           </button>
@@ -894,6 +898,7 @@ Al menù di navigazione principale può essere aggiunto anche un menù di naviga
 ## Header Completa
 
 {% capture example %}
+
 <header class="it-header-wrapper">
   <div class="it-header-slim-wrapper">
     <div class="container">
@@ -1117,6 +1122,7 @@ Nella versione light è consigliabile aggiungere la classe `.it-shadow` al tag `
 Verrà creata un'ombra per enfatizzare l'Header rispetto alla pagina in cui è contenuto.
 
 {% capture example %}
+
 <header class="it-header-wrapper it-shadow">
   <div class="it-header-slim-wrapper theme-light">
     <div class="container">

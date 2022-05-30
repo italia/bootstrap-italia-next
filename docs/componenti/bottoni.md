@@ -16,7 +16,16 @@ Per aggiungere un bottone personalizzato, è sufficiente utilizzare la classe `.
 
 Le classi `.btn` sono state pensate per essere utilizzate con l'elemento `<button>`. Tuttavia, è possibile applicare lo stile per i bottoni anche ad elementi di tipo `<a>` o `<input>`, anche se alcuni browser potrebbero mostrare un rendering lievemente diverso.
 
-In questi casi, non dimenticare di utilizzare in modo appropriato gli attributi `role="button"` per trasmettere il loro scopo alle tecnologie assistive.
+{% capture callout %}
+
+#### Accessibilità
+
+La classe `.btn` permette di conferire visivamente agli elementi html l'aspetto di "pulsante". Anche elementi `<a>` o `<span>` possono trasformarsi visivamente in pulsanti, provocando discrepanza tra ciò che si rappresenta e la funzione semantica dell'elemento. Questo può provocare complesse problematiche di accessibilità.
+
+Dove il click sul bottone non genera un cambio di pagina utilizzare esclusivamente il tag `<button>`.
+
+Quando non fosse possibile, non dimenticare di utilizzare in modo appropriato gli attributi `role="button"` per trasmettere il loro scopo alle tecnologie assistive.
+{% endcapture %}{% include callout.html content=callout type="accessibility" %}
 
 {% capture example %}
 <a class="btn" href="#" role="button">Link</a>
@@ -77,14 +86,14 @@ La classe `.disabled` usa `pointer-events: none` per provare a disabilitare l'at
 
 {% capture example %}
 <button class="btn btn-success btn-lg btn-icon btn-me">
-  <span>Icon Button Lg</span>
-  <svg class="icon icon-white ms-1">
-  <use
+<span>Icon Button Lg</span>
+<svg class="icon icon-white ms-1">
+<use
         href="{{
           site.baseurl
         }}/dist/svg/sprites.svg#it-star-full"
       ></use>
-  </svg>
+</svg>
 </button>
 
 <button class="btn btn-primary btn-icon btn-me">
@@ -190,14 +199,14 @@ Per ottenere bottoni di dimensione più grande o più piccola, è sufficiente ut
 <button type="button" class="btn btn-secondary btn-xs">Secondary Mini</button>
 {% endcapture %}{% include example.html content=example %}
 
-#### A tutta laghezza
+#### A tutta larghezza
 
 Per creare bottoni o gruppi di bottoni a tutta larghezza, come i _block buttons_ di Bootstrap 4, utilizzare un mix delle utilities **display** e **gap**. Con queste utilities abbiamo più controllo su spaziature, allineamento e comportamento responsive rispetto al classico _block button_.
 
 {% capture example %}
 
 <div class="d-grid gap-2">
-  <button class="btn btn-primary" type="button btn-me">Primary</button>
+  <button class="btn btn-primary btn-me" type="button">Primary</button>
   <button class="btn btn-secondary" type="button">Secondary</button>
 </div>
 {% endcapture %}{% include example.html content=example %}
