@@ -98,7 +98,7 @@ export default [
   {
     input: 'src/scss/bootstrap-italia-comuni.scss',
     output: {
-      dir: 'dist'
+      dir: 'dist',
     },
     plugins: [
       scss({
