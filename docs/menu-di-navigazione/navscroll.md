@@ -323,7 +323,7 @@ La classe distintiva del wrapper esterno è `.inline-menu`.
 
 Gli inline menù possono contenere liste di link di ogni tipo; nell'esempio che segue è stata inserita una Lista di link collassabile.
 
-Per maggiori informazioni, si può fare riferimento alla [documentazione delle Liste di link]({{ site.baseurl }}/docs/organizzare-i-contenuti/liste-di-link/).
+Per maggiori informazioni, si può fare riferimento alla [documentazione delle Liste di link]({{ site.baseurl }}/docs/organizzare-i-contenuti/liste/#liste-per-menù-di-navigazione).
 
 {% capture example %}
 
