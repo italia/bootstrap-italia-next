@@ -4,7 +4,7 @@
     list-style-type: none;
     margin: 0;
     padding: 0;
-    a {
+    .list-item {
       transition: all 0.3s;
       margin-top: -1px;
       display: flex;
@@ -95,7 +95,7 @@
       }
     }
     li:last-child {
-      a {
+      .list-item {
         span.text {
           border-bottom: 1px solid transparent;
         }
@@ -109,7 +109,7 @@
   //mobile
   .it-list-wrapper {
     .it-list {
-      a {
+      .list-item {
         .avatar,
         .it-rounded-icon,
         .it-thumb {
@@ -136,19 +136,23 @@
             margin-right: $v-gap * 3;
           }
         }
-        &:hover {
-          box-shadow: $card-shadow;
-          color: $primary-a5;
-          text-decoration: none;
-          background: #fff;
-          position: relative;
-          z-index: 1;
-          transition: none;
-          .it-right-zone {
-            border-bottom: 1px solid transparent;
-          }
-          span.text {
-            text-decoration: underline;
+      }
+      a {
+        &.list-item {
+          &:hover {
+            box-shadow: $card-shadow;
+            color: $primary-a5;
+            text-decoration: none;
+            background: #fff;
+            position: relative;
+            z-index: 1;
+            transition: none;
+            .it-right-zone {
+              border-bottom: 1px solid transparent;
+            }
+            span.text {
+              text-decoration: underline;
+            }
           }
         }
       }

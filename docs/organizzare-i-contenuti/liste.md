@@ -18,19 +18,19 @@ Le liste, costituite da tag `<ul>` con classe `.it-list` all'interno di un wrapp
 <div class="it-list-wrapper">
   <ul class="it-list">
     <li>
-      <a href="#">
+      <a href="#" class="list-item">
         <div class="it-right-zone"><span class="text">Label 1</span>
         </div>
       </a>
     </li>
     <li>
-      <a href="#">
+      <a href="#" class="list-item">
         <div class="it-right-zone"><span class="text">Label 2</span>
         </div>
       </a>
     </li>
     <li>
-      <a class="active" href="#">
+      <a class="list-item active" href="#">
         <div class="it-right-zone"><span class="text">Label attiva</span>
         </div>
       </a>
@@ -48,21 +48,21 @@ L'elemento `.avatar` precede l'elemento `.it-right-zone` che contiene il testo.
 <div class="it-list-wrapper">
   <ul class="it-list">
     <li>
-      <a href="#">
+      <a href="#" class="list-item">
         <div class="avatar size-lg"><img src="https://randomuser.me/api/portraits/women/41.jpg" alt="Anna Barbieri"></div>
         <div class="it-right-zone"><span class="text">Label 1</span>
         </div>
       </a>
     </li>
     <li>
-      <a href="#">
+      <a href="#" class="list-item">
         <div class="avatar size-lg"><img src="https://randomuser.me/api/portraits/women/41.jpg" alt="Anna Barbieri"></div>
         <div class="it-right-zone"><span class="text">Label 2</span>
         </div>
       </a>
     </li>
     <li>
-      <a class="active" href="#">
+      <a class="list-item active" href="#" >
         <div class="avatar size-lg"><img src="https://randomuser.me/api/portraits/women/41.jpg" alt="Anna Barbieri"></div>
         <div class="it-right-zone"><span class="text">Label attiva</span>
         </div>
@@ -81,7 +81,7 @@ L'elemento `.it-rounded-icon` con all'interno la relativa icona, precede l'eleme
 <div class="it-list-wrapper">
   <ul class="it-list">
     <li>
-      <a href="#">
+      <a href="#" class="list-item">
         <div class="it-rounded-icon">
           <svg class="icon">
             <use href="{{ site.baseurl }}/dist/svg/sprites.svg#it-folder"></use>
@@ -92,7 +92,7 @@ L'elemento `.it-rounded-icon` con all'interno la relativa icona, precede l'eleme
       </a>
     </li>
     <li>
-      <a href="#">
+      <a href="#" class="list-item">
         <div class="it-rounded-icon">
           <svg class="icon">
             <use href="{{ site.baseurl }}/dist/svg/sprites.svg#it-folder"></use>
@@ -103,7 +103,7 @@ L'elemento `.it-rounded-icon` con all'interno la relativa icona, precede l'eleme
       </a>
     </li>
     <li>
-      <a class="active" href="#">
+      <a class="list-item active" href="#">
         <div class="it-rounded-icon">
           <svg class="icon">
             <use href="{{ site.baseurl }}/dist/svg/sprites.svg#it-folder"></use>
@@ -126,21 +126,21 @@ L'elemento `.it-thumb` con all'interno la relativa immagine, precede l'elemento 
 <div class="it-list-wrapper">
   <ul class="it-list">
     <li>
-      <a href="#">
+      <a href="#" class="list-item">
         <div class="it-thumb"><img src="https://via.placeholder.com/40x40.png?text=40x40" alt="descrizione immagine"></div>
         <div class="it-right-zone"><span class="text">Label 1</span>
         </div>
       </a>
     </li>
     <li>
-      <a href="#">
+      <a href="#" class="list-item">
         <div class="it-thumb"><img src="https://via.placeholder.com/40x40.png?text=40x40" alt="descrizione immagine"></div>
         <div class="it-right-zone"><span class="text">Label 2</span>
         </div>
       </a>
     </li>
     <li>
-      <a class="active" href="#">
+      <a class="list-item active" href="#">
         <div class="it-thumb"><img src="https://via.placeholder.com/40x40.png?text=40x40" alt="descrizione immagine"></div>
         <div class="it-right-zone"><span class="text">Label attiva</span>
         </div>
@@ -163,7 +163,7 @@ L'elemento `.icon` con all'interno la relativa icona segue l'elemento `.text` ch
 <div class="it-list-wrapper">
   <ul class="it-list">
     <li>
-      <a href="#">
+      <a href="#" class="list-item">
         <div class="it-right-zone">
           <span class="text">Label 1</span>
           <svg class="icon">
@@ -173,7 +173,7 @@ L'elemento `.icon` con all'interno la relativa icona segue l'elemento `.text` ch
       </a>
     </li>
     <li>
-      <a href="#">
+      <a href="#" class="list-item">
         <div class="it-right-zone">
           <span class="text">Label 2</span>
           <svg class="icon">
@@ -183,53 +183,11 @@ L'elemento `.icon` con all'interno la relativa icona segue l'elemento `.text` ch
       </a>
     </li>
     <li>
-      <a class="active" href="#">
+      <a class="active list-item" href="#">
         <div class="it-right-zone">
           <span class="text">Label attiva</span>
           <svg class="icon">
             <use href="{{ site.baseurl }}/dist/svg/sprites.svg#it-chevron-right"></use>
-          </svg>
-        </div>
-      </a>
-    </li>
-  </ul>
-</div>
-{% endcapture %}{% include example.html content=example %}
-
-### Con "more"
-
-L'elemento `.icon` con all'interno la relativa icona, segue l'elemento `.text` che contiene il testo.
-
-{% capture example %}
-
-<div class="it-list-wrapper">
-  <ul class="it-list">
-    <li>
-      <a href="#">
-        <div class="it-right-zone">
-          <span class="text">Label 1</span>
-          <svg class="icon">
-            <use href="{{ site.baseurl }}/dist/svg/sprites.svg#it-more-actions"></use>
-          </svg>
-        </div>
-      </a>
-    </li>
-    <li>
-      <a href="#">
-        <div class="it-right-zone">
-          <span class="text">Label 2</span>
-          <svg class="icon">
-            <use href="{{ site.baseurl }}/dist/svg/sprites.svg#it-more-actions"></use>
-          </svg>
-        </div>
-      </a>
-    </li>
-    <li>
-      <a class="active" href="#">
-        <div class="it-right-zone">
-          <span class="text">Label attiva</span>
-          <svg class="icon">
-            <use href="{{ site.baseurl }}/dist/svg/sprites.svg#it-more-actions"></use>
           </svg>
         </div>
       </a>
@@ -247,7 +205,7 @@ L'elemento `.it-multiple` con all'interno le relative icone, segue l'elemento `.
 <div class="it-list-wrapper">
   <ul class="it-list">
     <li>
-      <a href="#">
+      <a href="#" class="list-item">
         <div class="it-right-zone">
           <span class="text">Label 1</span>
           <span class="it-multiple">
@@ -265,7 +223,7 @@ L'elemento `.it-multiple` con all'interno le relative icone, segue l'elemento `.
       </a>
     </li>
     <li>
-      <a href="#">
+      <a href="#" class="list-item">
         <div class="it-right-zone">
           <span class="text">Label 2</span>
           <span class="it-multiple">
@@ -283,7 +241,7 @@ L'elemento `.it-multiple` con all'interno le relative icone, segue l'elemento `.
       </a>
     </li>
     <li>
-      <a class="active" href="#">
+      <a class="list-item active" href="#">
         <div class="it-right-zone">
           <span class="text">Label attiva</span>
           <span class="it-multiple">
@@ -314,7 +272,7 @@ Per attivare il javascript che attiva il funzionamento dei toggles è necessario
 <div class="it-list-wrapper">
   <ul class="it-list" data-bs-list-checkbox>
     <li>
-      <a href="#">
+      <a href="#" class="list-item">
         <div class="it-right-zone">
           <span class="text">Label 1</span>
           <div class="toggles">
@@ -326,7 +284,7 @@ Per attivare il javascript che attiva il funzionamento dei toggles è necessario
       </a>
     </li>
     <li>
-      <a href="#">
+      <a href="#" class="list-item">
         <div class="it-right-zone">
           <span class="text">Label 2</span>
           <div class="toggles">
@@ -338,7 +296,7 @@ Per attivare il javascript che attiva il funzionamento dei toggles è necessario
       </a>
     </li>
     <li>
-      <a href="#">
+      <a href="#" class="list-item">
         <div class="it-right-zone">
           <span class="text">Label 3</span>
           <div class="toggles">
@@ -365,21 +323,21 @@ L'elemento `.metadata`, segue l'elemento `.text`.
 <div class="it-list-wrapper">
   <ul class="it-list">
     <li>
-      <a href="#">
+      <a href="#" class="list-item">
         <div class="avatar size-lg"><img src="https://randomuser.me/api/portraits/women/41.jpg" alt="Anna Barbieri"></div>
         <div class="it-right-zone"><span class="text">Label 1</span><span class="metadata">metadata</span>
         </div>
       </a>
     </li>
     <li>
-      <a href="#">
+      <a href="#" class="list-item">
         <div class="avatar size-lg"><img src="https://randomuser.me/api/portraits/women/41.jpg" alt="Anna Barbieri"></div>
         <div class="it-right-zone"><span class="text">Label 2</span><span class="metadata">metadata</span>
         </div>
       </a>
     </li>
     <li>
-      <a class="active" href="#">
+      <a class="list-item active" href="#">
         <div class="avatar size-lg"><img src="https://randomuser.me/api/portraits/women/41.jpg" alt="Anna Barbieri"></div>
         <div class="it-right-zone"><span class="text">Label attiva</span><span class="metadata">metadata</span>
         </div>
@@ -399,7 +357,7 @@ Per attivare il javascript che attiva il funzionamento dei toggles è necessario
 <div class="it-list-wrapper">
   <ul class="it-list" data-bs-list-checkbox>
     <li>
-      <a href="#">
+      <a href="#" class="list-item">
         <div class="it-thumb"><img src="https://via.placeholder.com/40x40.png?text=40x40" alt="descrizione immagine"></div>
         <div class="it-right-zone">
           <span class="text">Label 1</span>
@@ -412,7 +370,7 @@ Per attivare il javascript che attiva il funzionamento dei toggles è necessario
       </a>
     </li>
     <li>
-      <a href="#">
+      <a href="#" class="list-item">
         <div class="it-thumb"><img src="https://via.placeholder.com/40x40.png?text=40x40" alt="descrizione immagine"></div>
         <div class="it-right-zone">
           <span class="text">Label 2</span>
@@ -425,7 +383,7 @@ Per attivare il javascript che attiva il funzionamento dei toggles è necessario
       </a>
     </li>
     <li>
-      <a href="#">
+      <a href="#" class="list-item">
         <div class="it-thumb"><img src="https://via.placeholder.com/40x40.png?text=40x40" alt="descrizione immagine"></div>
         <div class="it-right-zone">
           <span class="text">Label 3</span>
@@ -450,7 +408,7 @@ Per il testo aggiuntivo, utilizzare il tag `<em>` all'interno dell'elemento `.te
 <div class="it-list-wrapper">
   <ul class="it-list">
     <li>
-      <a href="#">
+      <a href="#" class="list-item">
         <div class="it-right-zone">
           <span class="text">Label 1<em>Font Titillium 14px. Leading 20px.</em></span>
           <span class="it-multiple">
@@ -469,7 +427,7 @@ Per il testo aggiuntivo, utilizzare il tag `<em>` all'interno dell'elemento `.te
       </a>
     </li>
     <li>
-      <a href="#">
+      <a href="#" class="list-item">
         <div class="it-right-zone">
           <span class="text">Label 2<em>Font Titillium 14px. Leading 20px.</em></span>
           <span class="it-multiple">
@@ -488,7 +446,7 @@ Per il testo aggiuntivo, utilizzare il tag `<em>` all'interno dell'elemento `.te
       </a>
     </li>
     <li>
-      <a class="active" href="#">
+      <a class="active list-item" href="#">
         <div class="it-right-zone">
           <span class="text">Label attiva<em>Font Titillium 14px. Leading 20px.</em></span>
           <span class="it-multiple">
@@ -520,7 +478,7 @@ Per attivare il javascript che attiva il funzionamento dei checkbox è necessari
 <div class="it-list-wrapper">
   <ul class="it-list" data-bs-list-checkbox>
     <li>
-      <a href="#">
+      <a href="#" class="list-item">
         <div class="form-check">
           <input id="idc1" type="checkbox">
           <label for="idc1"></label>
@@ -530,7 +488,7 @@ Per attivare il javascript che attiva il funzionamento dei checkbox è necessari
       </a>
     </li>
     <li>
-      <a href="#">
+      <a href="#" class="list-item">
         <div class="form-check">
           <input id="idc2" type="checkbox">
           <label for="idc2"></label>
@@ -540,7 +498,7 @@ Per attivare il javascript che attiva il funzionamento dei checkbox è necessari
       </a>
     </li>
     <li>
-      <a href="#">
+      <a href="#" class="list-item">
         <div class="form-check">
           <input id="idc3" type="checkbox">
           <label for="idc3"></label>
