@@ -444,61 +444,104 @@ Per il testo aggiuntivo, utilizzare il tag `<em>` all'interno dell'elemento `.te
 <div class="it-list-wrapper">
   <ul class="it-list">
     <li>
-      <a href="#" class="list-item">
+      <div class="list-item">
         <div class="it-right-zone">
-          <span class="text">Label 1<em>Font Titillium 14px. Leading 20px.</em></span>
+          <span class="text">Label 1 text<em>Font Titillium 14px. Leading 20px.</em></span>
           <span class="it-multiple">
-            <span class="metadata">metadata</span>
-            <svg class="icon">
-              <use href="{{ site.baseurl }}/dist/svg/sprites.svg#it-code-circle"></use>
-            </svg>
-            <svg class="icon">
-              <use href="{{ site.baseurl }}/dist/svg/sprites.svg#it-code-circle"></use>
-            </svg>
-            <svg class="icon">
-              <use href="{{ site.baseurl }}/dist/svg/sprites.svg#it-code-circle"></use>
-            </svg>
+            <span class="metadata">metadata text</span>
+            <a href="#">
+              <svg class="icon">
+                <use href="{{ site.baseurl }}/dist/svg/sprites.svg#it-code-circle"></use>
+              </svg>
+            </a>
+            <a href="#">
+              <svg class="icon">
+                <use href="{{ site.baseurl }}/dist/svg/sprites.svg#it-code-circle"></use>
+              </svg>
+            </a>
+            <a href="#">
+              <svg class="icon">
+                <use href="{{ site.baseurl }}/dist/svg/sprites.svg#it-code-circle"></use>
+              </svg>
+            </a>
           </span>
         </div>
-      </a>
+      </div>
     </li>
     <li>
-      <a href="#" class="list-item">
+      <div  class="list-item">
         <div class="it-right-zone">
-          <span class="text">Label 2<em>Font Titillium 14px. Leading 20px.</em></span>
+          <span class="text">Label 2 text<em>Font Titillium 14px. Leading 20px.</em></span>
           <span class="it-multiple">
-            <span class="metadata">metadata</span>
-            <svg class="icon">
-              <use href="{{ site.baseurl }}/dist/svg/sprites.svg#it-code-circle"></use>
-            </svg>
-            <svg class="icon">
-              <use href="{{ site.baseurl }}/dist/svg/sprites.svg#it-code-circle"></use>
-            </svg>
-            <svg class="icon">
-              <use href="{{ site.baseurl }}/dist/svg/sprites.svg#it-code-circle"></use>
-            </svg>
+            <span class="metadata"><a href="#">metadata link</a></span>
+            <a href="#">
+              <svg class="icon">
+                <use href="{{ site.baseurl }}/dist/svg/sprites.svg#it-code-circle"></use>
+              </svg>
+            </a>
+            <a href="#">
+              <svg class="icon">
+                <use href="{{ site.baseurl }}/dist/svg/sprites.svg#it-code-circle"></use>
+              </svg>
+            </a>
+            <a href="#">
+              <svg class="icon">
+                <use href="{{ site.baseurl }}/dist/svg/sprites.svg#it-code-circle"></use>
+              </svg>
+            </a>
           </span>
         </div>
-      </a>
+      </div>
     </li>
     <li>
-      <a class="active list-item" href="#">
+      <div  class="list-item">
         <div class="it-right-zone">
-          <span class="text">Label attiva<em>Font Titillium 14px. Leading 20px.</em></span>
+          <a href="#"><span class="text">Label 3 link<em>Font Titillium 14px. Leading 20px.</em></span></a>
           <span class="it-multiple">
-            <span class="metadata">metadata</span>
-            <svg class="icon">
-              <use href="{{ site.baseurl }}/dist/svg/sprites.svg#it-code-circle"></use>
-            </svg>
-            <svg class="icon">
-              <use href="{{ site.baseurl }}/dist/svg/sprites.svg#it-code-circle"></use>
-            </svg>
-            <svg class="icon">
-              <use href="{{ site.baseurl }}/dist/svg/sprites.svg#it-code-circle"></use>
-            </svg>
+            <span class="metadata"><a href="#">metadata link</a></span>
+            <a href="#">
+              <svg class="icon">
+                <use href="{{ site.baseurl }}/dist/svg/sprites.svg#it-code-circle"></use>
+              </svg>
+            </a>
+            <a href="#">
+              <svg class="icon">
+                <use href="{{ site.baseurl }}/dist/svg/sprites.svg#it-code-circle"></use>
+              </svg>
+            </a>
+            <a href="#">
+              <svg class="icon">
+                <use href="{{ site.baseurl }}/dist/svg/sprites.svg#it-code-circle"></use>
+              </svg>
+            </a>
           </span>
         </div>
-      </a>
+      </div>
+    </li>
+    <li>
+      <div class="list-item active">
+        <div class="it-right-zone">
+          <a href="#"><span class="text">Label link attiva<em>Font Titillium 14px. Leading 20px.</em></span></a>
+          <span class="it-multiple">
+            <span class="metadata">metadata text</span>
+            <a href="#">
+              <svg class="icon">
+                <use href="{{ site.baseurl }}/dist/svg/sprites.svg#it-code-circle"></use>
+              </svg>
+            </a>
+            <a href="#">
+              <svg class="icon">
+                <use href="{{ site.baseurl }}/dist/svg/sprites.svg#it-code-circle"></use>
+              </svg>
+            </a>
+            <a href="#">
+              <svg class="icon">
+                <use href="{{ site.baseurl }}/dist/svg/sprites.svg#it-code-circle"></use>
+              </svg>
+            </a>
+          </span>
+        </div>
+      </div>
     </li>
   </ul>
 </div>

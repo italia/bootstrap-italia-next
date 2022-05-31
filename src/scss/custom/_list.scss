@@ -25,9 +25,12 @@
       }
       .form-check {
         margin-right: $v-gap;
-        width: $v-gap * 5;
+        width: $v-gap;
         height: $v-gap * 4;
         text-align: left;
+        & + .it-right-zone {
+          margin-left: $v-gap * 2;
+        }
         label {
           padding-left: 0;
           margin-bottom: 0;
@@ -128,7 +131,7 @@
           }
         }
         .form-check {
-          margin-right: 0;
+          margin-right: $v-gap * 2;
           text-align: center;
         }
         // hover
@@ -151,7 +154,7 @@
               }
               &:hover {
                 svg {
-                  fill:$primary-a10;
+                  fill: $primary-a10;
                 }
               }
             }
