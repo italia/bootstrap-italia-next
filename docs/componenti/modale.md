@@ -110,7 +110,7 @@ Per chiudere la modale, si può utilizzare un bottone con classe `.btn-close`.
 
 {% capture callout %}
 
-#### Accessibilità
+#### Accessibilità bottone di chiusra
 
 **Assicurati di inserire del testo per gli screen readers**, utilizzando l'attributo `aria-label`.
 {% endcapture %}{% include callout.html content=callout type="accessibility" %}

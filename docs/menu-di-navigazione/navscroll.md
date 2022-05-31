@@ -177,14 +177,14 @@ La Navscroll può mostrare una barra di avanzamento dello scorrimento del conten
 {% capture example %}
 
 <nav class="navbar it-navscroll-wrapper navbar-expand-lg it-bottom-navscroll it-right-side" data-bs-navscroll>
-  <button class="custom-navbar-toggler" type="button" aria-controls="navbarNav" aria-expanded="false"
-    aria-label="Toggle navigation" data-bs-toggle="navbarcollapsible" data-bs-target="#navbarNav">
+  <button class="custom-navbar-toggler" type="button" aria-controls="navbarNavProgress" aria-expanded="false"
+    aria-label="Toggle navigation" data-bs-toggle="navbarcollapsible" data-bs-target="#navbarNavProgress">
     <span class="it-list"></span>1. Introduzione
   </button>
   <div class="progress custom-navbar-progressbar">
     <div class="progress-bar it-navscroll-progressbar" role="progressbar" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100"></div>
   </div>
-  <div class="navbar-collapsable" id="navbarNav">
+  <div class="navbar-collapsable" id="navbarNavProgress">
     <div class="overlay"></div>
     <a class="it-back-button" href="#" role="button">
       <svg class="icon icon-sm icon-primary align-top">
