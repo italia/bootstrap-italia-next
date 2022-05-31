@@ -10,12 +10,12 @@
       display: flex;
       align-items: center;
       text-decoration: none;
-
+      border-bottom: 1px solid $list-border-color;
       .avatar,
       .it-rounded-icon,
       .it-thumb {
         flex-shrink: 0;
-        margin-right: $v-gap * 3;
+        margin-right: $v-gap * 2;
       }
       .it-rounded-icon {
         width: $v-gap * 5;
@@ -44,11 +44,13 @@
       }
       .it-right-zone {
         padding: $list-text-padding;
-        border-bottom: 1px solid $list-border-color;
         flex-grow: 1;
         display: flex;
         justify-content: space-between;
         align-items: center;
+        a {
+          text-decoration: none;
+        }
         svg {
           fill: $primary-a5;
           width: $v-gap * 3;
@@ -64,7 +66,7 @@
             text-align: right;
           }
           svg {
-            margin-left: $v-gap;
+            margin-left: $v-gap * 2;
             margin-right: 0;
           }
         }
@@ -75,6 +77,9 @@
           color: $list-metadata-color;
           font-size: $list-metadata-size;
           letter-spacing: $list-metadata-space;
+          a {
+            color: $primary;
+          }
         }
       }
       span.text {
@@ -92,6 +97,9 @@
       // active
       &.active {
         color: $neutral-1-a10;
+        .text {
+          color: $neutral-1-a10;
+        }
       }
     }
     li:last-child {
@@ -113,8 +121,11 @@
         .avatar,
         .it-rounded-icon,
         .it-thumb {
-          margin-left: $v-gap * 3;
+          margin-left: $v-gap;
           margin-right: 0;
+          & + .it-right-zone {
+            margin-left: $v-gap * 2;
+          }
         }
         .form-check {
           margin-right: 0;
@@ -122,18 +133,37 @@
         }
         // hover
         .it-right-zone {
-          margin-left: $v-gap * 3;
-          svg {
-            margin-right: $v-gap * 3;
+          margin-left: $v-gap;
+          margin-right: $v-gap;
+          a {
+            &:hover {
+              .text {
+                color: $primary;
+                text-decoration: underline;
+              }
+            }
           }
           span.it-multiple {
-            margin-right: $v-gap * 3;
+            margin-right: $v-gap;
+            a {
+              svg {
+                transition: all 0.3s;
+              }
+              &:hover {
+                svg {
+                  fill:$primary-a10;
+                }
+              }
+            }
           }
           .toggles {
-            margin-right: $v-gap * 3;
+            margin-right: 0;
           }
           span.metadata {
-            margin-right: $v-gap * 3;
+            margin-right: $v-gap;
+            a:hover {
+              text-decoration: underline;
+            }
           }
         }
       }
@@ -147,9 +177,7 @@
             position: relative;
             z-index: 1;
             transition: none;
-            .it-right-zone {
-              border-bottom: 1px solid transparent;
-            }
+            border-bottom: 1px solid transparent;
             span.text {
               text-decoration: underline;
             }

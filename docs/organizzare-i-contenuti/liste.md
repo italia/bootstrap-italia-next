@@ -18,20 +18,20 @@ Le liste, costituite da tag `<ul>` con classe `.it-list` all'interno di un wrapp
 <div class="it-list-wrapper">
   <ul class="it-list">
     <li>
-      <a href="#" class="list-item">
-        <div class="it-right-zone"><span class="text">Label 1</span>
+      <div class="list-item">
+        <div class="it-right-zone"><span class="text">Label 1 text</span>
         </div>
-      </a>
+      </div>
     </li>
     <li>
       <a href="#" class="list-item">
-        <div class="it-right-zone"><span class="text">Label 2</span>
+        <div class="it-right-zone"><span class="text">Label 2 Link</span>
         </div>
       </a>
     </li>
     <li>
       <a class="list-item active" href="#">
-        <div class="it-right-zone"><span class="text">Label attiva</span>
+        <div class="it-right-zone"><span class="text">Label link attiva</span>
         </div>
       </a>
     </li>
@@ -48,23 +48,23 @@ L'elemento `.avatar` precede l'elemento `.it-right-zone` che contiene il testo.
 <div class="it-list-wrapper">
   <ul class="it-list">
     <li>
-      <a href="#" class="list-item">
+      <div class="list-item">
         <div class="avatar size-lg"><img src="https://randomuser.me/api/portraits/women/41.jpg" alt="Anna Barbieri"></div>
-        <div class="it-right-zone"><span class="text">Label 1</span>
+        <div class="it-right-zone"><span class="text">Label 1 text</span>
         </div>
-      </a>
+      </div>
     </li>
     <li>
       <a href="#" class="list-item">
         <div class="avatar size-lg"><img src="https://randomuser.me/api/portraits/women/41.jpg" alt="Anna Barbieri"></div>
-        <div class="it-right-zone"><span class="text">Label 2</span>
+        <div class="it-right-zone"><span class="text">Label 2 link</span>
         </div>
       </a>
     </li>
     <li>
       <a class="list-item active" href="#" >
         <div class="avatar size-lg"><img src="https://randomuser.me/api/portraits/women/41.jpg" alt="Anna Barbieri"></div>
-        <div class="it-right-zone"><span class="text">Label attiva</span>
+        <div class="it-right-zone"><span class="text">Label link attiva</span>
         </div>
       </a>
     </li>
@@ -81,15 +81,15 @@ L'elemento `.it-rounded-icon` con all'interno la relativa icona, precede l'eleme
 <div class="it-list-wrapper">
   <ul class="it-list">
     <li>
-      <a href="#" class="list-item">
+      <div class="list-item">
         <div class="it-rounded-icon">
           <svg class="icon">
             <use href="{{ site.baseurl }}/dist/svg/sprites.svg#it-folder"></use>
           </svg>
         </div>
-        <div class="it-right-zone"><span class="text">Label 1</span>
+        <div class="it-right-zone"><span class="text">Label 1 text</span>
         </div>
-      </a>
+      </div>
     </li>
     <li>
       <a href="#" class="list-item">
@@ -98,7 +98,7 @@ L'elemento `.it-rounded-icon` con all'interno la relativa icona, precede l'eleme
             <use href="{{ site.baseurl }}/dist/svg/sprites.svg#it-folder"></use>
           </svg>
         </div>
-        <div class="it-right-zone"><span class="text">Label 2</span>
+        <div class="it-right-zone"><span class="text">Label 2 link</span>
         </div>
       </a>
     </li>
@@ -109,7 +109,7 @@ L'elemento `.it-rounded-icon` con all'interno la relativa icona, precede l'eleme
             <use href="{{ site.baseurl }}/dist/svg/sprites.svg#it-folder"></use>
           </svg>
         </div>
-        <div class="it-right-zone"><span class="text">Label attiva</span>
+        <div class="it-right-zone"><span class="text">Label link attiva</span>
         </div>
       </a>
     </li>
@@ -126,23 +126,23 @@ L'elemento `.it-thumb` con all'interno la relativa immagine, precede l'elemento 
 <div class="it-list-wrapper">
   <ul class="it-list">
     <li>
-      <a href="#" class="list-item">
+      <div class="list-item">
         <div class="it-thumb"><img src="https://via.placeholder.com/40x40.png?text=40x40" alt="descrizione immagine"></div>
-        <div class="it-right-zone"><span class="text">Label 1</span>
+        <div class="it-right-zone"><span class="text">Label 1 text</span>
         </div>
-      </a>
+      </div>
     </li>
     <li>
       <a href="#" class="list-item">
         <div class="it-thumb"><img src="https://via.placeholder.com/40x40.png?text=40x40" alt="descrizione immagine"></div>
-        <div class="it-right-zone"><span class="text">Label 2</span>
+        <div class="it-right-zone"><span class="text">Label 2 link</span>
         </div>
       </a>
     </li>
     <li>
       <a class="list-item active" href="#">
         <div class="it-thumb"><img src="https://via.placeholder.com/40x40.png?text=40x40" alt="descrizione immagine"></div>
-        <div class="it-right-zone"><span class="text">Label attiva</span>
+        <div class="it-right-zone"><span class="text">Label link attiva</span>
         </div>
       </a>
     </li>
@@ -163,19 +163,19 @@ L'elemento `.icon` con all'interno la relativa icona segue l'elemento `.text` ch
 <div class="it-list-wrapper">
   <ul class="it-list">
     <li>
-      <a href="#" class="list-item">
+      <div class="list-item">
         <div class="it-right-zone">
-          <span class="text">Label 1</span>
+          <span class="text">Label 1 text</span>
           <svg class="icon">
             <use href="{{ site.baseurl }}/dist/svg/sprites.svg#it-chevron-right"></use>
           </svg>
         </div>
-      </a>
+      </div>
     </li>
     <li>
       <a href="#" class="list-item">
         <div class="it-right-zone">
-          <span class="text">Label 2</span>
+          <span class="text">Label 2 link</span>
           <svg class="icon">
             <use href="{{ site.baseurl }}/dist/svg/sprites.svg#it-chevron-right"></use>
           </svg>
@@ -185,7 +185,7 @@ L'elemento `.icon` con all'interno la relativa icona segue l'elemento `.text` ch
     <li>
       <a class="active list-item" href="#">
         <div class="it-right-zone">
-          <span class="text">Label attiva</span>
+          <span class="text">Label link attiva</span>
           <svg class="icon">
             <use href="{{ site.baseurl }}/dist/svg/sprites.svg#it-chevron-right"></use>
           </svg>
@@ -205,58 +205,80 @@ L'elemento `.it-multiple` con all'interno le relative icone, segue l'elemento `.
 <div class="it-list-wrapper">
   <ul class="it-list">
     <li>
-      <a href="#" class="list-item">
+      <div class="list-item">
         <div class="it-right-zone">
-          <span class="text">Label 1</span>
+          <span class="text">Label 1 text</span>
           <span class="it-multiple">
-            <svg class="icon">
-              <use href="{{ site.baseurl }}/dist/svg/sprites.svg#it-code-circle"></use>
-            </svg>
-            <svg class="icon">
-              <use href="{{ site.baseurl }}/dist/svg/sprites.svg#it-code-circle"></use>
-            </svg>
-            <svg class="icon">
-              <use href="{{ site.baseurl }}/dist/svg/sprites.svg#it-code-circle"></use>
-            </svg>
+            <a href="#">
+              <svg class="icon">
+                <use href="{{ site.baseurl }}/dist/svg/sprites.svg#it-code-circle"></use>
+              </svg>
+            </a>
+            <a href="#">
+              <svg class="icon">
+                <use href="{{ site.baseurl }}/dist/svg/sprites.svg#it-code-circle"></use>
+              </svg>
+            </a>
+            <a href="#">
+              <svg class="icon">
+                <use href="{{ site.baseurl }}/dist/svg/sprites.svg#it-code-circle"></use>
+              </svg>
+            </a>
           </span>
         </div>
-      </a>
+      </div>
     </li>
     <li>
-      <a href="#" class="list-item">
+      <div class="list-item">
         <div class="it-right-zone">
-          <span class="text">Label 2</span>
+          <a href="#">
+            <span class="text">Label 2 link</span>
+          </a>
           <span class="it-multiple">
-            <svg class="icon">
-              <use href="{{ site.baseurl }}/dist/svg/sprites.svg#it-code-circle"></use>
-            </svg>
-            <svg class="icon">
-              <use href="{{ site.baseurl }}/dist/svg/sprites.svg#it-code-circle"></use>
-            </svg>
-            <svg class="icon">
-              <use href="{{ site.baseurl }}/dist/svg/sprites.svg#it-code-circle"></use>
-            </svg>
+            <a href="#">
+              <svg class="icon">
+                <use href="{{ site.baseurl }}/dist/svg/sprites.svg#it-code-circle"></use>
+              </svg>
+            </a>
+            <a href="#">
+              <svg class="icon">
+                <use href="{{ site.baseurl }}/dist/svg/sprites.svg#it-code-circle"></use>
+              </svg>
+            </a>
+            <a href="#">
+              <svg class="icon">
+                <use href="{{ site.baseurl }}/dist/svg/sprites.svg#it-code-circle"></use>
+              </svg>
+            </a>
           </span>
         </div>
-      </a>
+      </div>
     </li>
     <li>
-      <a class="list-item active" href="#">
+      <div class="list-item active" href="#">
         <div class="it-right-zone">
-          <span class="text">Label attiva</span>
+          <a href="#">
+            <span class="text">Label link attiva</span>
+          </a>
           <span class="it-multiple">
-            <svg class="icon">
-              <use href="{{ site.baseurl }}/dist/svg/sprites.svg#it-code-circle"></use>
-            </svg>
-            <svg class="icon">
-              <use href="{{ site.baseurl }}/dist/svg/sprites.svg#it-code-circle"></use>
-            </svg>
-            <svg class="icon">
-              <use href="{{ site.baseurl }}/dist/svg/sprites.svg#it-code-circle"></use>
-            </svg>
+            <a href="#">
+              <svg class="icon">
+                <use href="{{ site.baseurl }}/dist/svg/sprites.svg#it-code-circle"></use>
+              </svg>
+            </a>
+            <a href="#">
+              <svg class="icon">
+                <use href="{{ site.baseurl }}/dist/svg/sprites.svg#it-code-circle"></use>
+              </svg>
+            </a>
+            <a href="#">
+              <svg class="icon">
+                <use href="{{ site.baseurl }}/dist/svg/sprites.svg#it-code-circle"></use>
+              </svg>
+            </a>
           </span>
         </div>
-      </a>
+      </div>
     </li>
   </ul>
 </div>
@@ -323,23 +345,37 @@ L'elemento `.metadata`, segue l'elemento `.text`.
 <div class="it-list-wrapper">
   <ul class="it-list">
     <li>
-      <a href="#" class="list-item">
+      <div class="list-item">
         <div class="avatar size-lg"><img src="https://randomuser.me/api/portraits/women/41.jpg" alt="Anna Barbieri"></div>
-        <div class="it-right-zone"><span class="text">Label 1</span><span class="metadata">metadata</span>
+        <div class="it-right-zone"><span class="text">Label 1 text</span><span class="metadata">metadata text</span>
         </div>
-      </a>
+      </div>
+    </li>
+    <li>
+      <div class="list-item">
+        <div class="avatar size-lg"><img src="https://randomuser.me/api/portraits/women/41.jpg" alt="Anna Barbieri"></div>
+        <div class="it-right-zone"><span class="text">Label 2 text</span><span class="metadata"><a href="#">metadata link</a></span>
+        </div>
+      </div>
     </li>
     <li>
       <a href="#" class="list-item">
         <div class="avatar size-lg"><img src="https://randomuser.me/api/portraits/women/41.jpg" alt="Anna Barbieri"></div>
-        <div class="it-right-zone"><span class="text">Label 2</span><span class="metadata">metadata</span>
+        <div class="it-right-zone"><span class="text">Label 3 link</span><span class="metadata">metadata text</span>
         </div>
       </a>
+    </li>
+    <li>
+      <div class="list-item">
+        <div class="avatar size-lg"><img src="https://randomuser.me/api/portraits/women/41.jpg" alt="Anna Barbieri"></div>
+        <div class="it-right-zone"><a href="#"><span class="text">Label 4 link</span></a><span class="metadata"><a href="#">metadata link</a></span>
+        </div>
+      </div>
     </li>
     <li>
       <a class="list-item active" href="#">
         <div class="avatar size-lg"><img src="https://randomuser.me/api/portraits/women/41.jpg" alt="Anna Barbieri"></div>
-        <div class="it-right-zone"><span class="text">Label attiva</span><span class="metadata">metadata</span>
+        <div class="it-right-zone"><span class="text">Label link attiva</span><span class="metadata">metadata text</span>
         </div>
       </a>
     </li>
