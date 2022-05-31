@@ -19,19 +19,19 @@ Le liste, costituite da tag `<ul>` con classe `.it-list` all'interno di un wrapp
   <ul class="it-list">
     <li>
       <div class="list-item">
-        <div class="it-right-zone"><span class="text">Label 1 text</span>
+        <div class="it-right-zone"><span class="text">Testo</span>
         </div>
       </div>
     </li>
     <li>
       <a href="#" class="list-item">
-        <div class="it-right-zone"><span class="text">Label 2 Link</span>
+        <div class="it-right-zone"><span class="text">Link</span>
         </div>
       </a>
     </li>
     <li>
       <a class="list-item active" href="#">
-        <div class="it-right-zone"><span class="text">Label link attiva</span>
+        <div class="it-right-zone"><span class="text">Link attivo</span>
         </div>
       </a>
     </li>
@@ -50,21 +50,21 @@ L'elemento `.avatar` precede l'elemento `.it-right-zone` che contiene il testo.
     <li>
       <div class="list-item">
         <div class="avatar size-lg"><img src="https://randomuser.me/api/portraits/women/41.jpg" alt="Anna Barbieri"></div>
-        <div class="it-right-zone"><span class="text">Label 1 text</span>
+        <div class="it-right-zone"><span class="text">Testo</span>
         </div>
       </div>
     </li>
     <li>
       <a href="#" class="list-item">
         <div class="avatar size-lg"><img src="https://randomuser.me/api/portraits/women/41.jpg" alt="Anna Barbieri"></div>
-        <div class="it-right-zone"><span class="text">Label 2 link</span>
+        <div class="it-right-zone"><span class="text">Link</span>
         </div>
       </a>
     </li>
     <li>
       <a class="list-item active" href="#" >
         <div class="avatar size-lg"><img src="https://randomuser.me/api/portraits/women/41.jpg" alt="Anna Barbieri"></div>
-        <div class="it-right-zone"><span class="text">Label link attiva</span>
+        <div class="it-right-zone"><span class="text">Link attivo</span>
         </div>
       </a>
     </li>
@@ -87,7 +87,7 @@ L'elemento `.it-rounded-icon` con all'interno la relativa icona, precede l'eleme
             <use href="{{ site.baseurl }}/dist/svg/sprites.svg#it-folder"></use>
           </svg>
         </div>
-        <div class="it-right-zone"><span class="text">Label 1 text</span>
+        <div class="it-right-zone"><span class="text">Testo</span>
         </div>
       </div>
     </li>
@@ -98,7 +98,7 @@ L'elemento `.it-rounded-icon` con all'interno la relativa icona, precede l'eleme
             <use href="{{ site.baseurl }}/dist/svg/sprites.svg#it-folder"></use>
           </svg>
         </div>
-        <div class="it-right-zone"><span class="text">Label 2 link</span>
+        <div class="it-right-zone"><span class="text">Link</span>
         </div>
       </a>
     </li>
@@ -109,7 +109,7 @@ L'elemento `.it-rounded-icon` con all'interno la relativa icona, precede l'eleme
             <use href="{{ site.baseurl }}/dist/svg/sprites.svg#it-folder"></use>
           </svg>
         </div>
-        <div class="it-right-zone"><span class="text">Label link attiva</span>
+        <div class="it-right-zone"><span class="text">Link attivo</span>
         </div>
       </a>
     </li>
@@ -128,21 +128,21 @@ L'elemento `.it-thumb` con all'interno la relativa immagine, precede l'elemento 
     <li>
       <div class="list-item">
         <div class="it-thumb"><img src="https://via.placeholder.com/40x40.png?text=40x40" alt="descrizione immagine"></div>
-        <div class="it-right-zone"><span class="text">Label 1 text</span>
+        <div class="it-right-zone"><span class="text">Testo</span>
         </div>
       </div>
     </li>
     <li>
       <a href="#" class="list-item">
         <div class="it-thumb"><img src="https://via.placeholder.com/40x40.png?text=40x40" alt="descrizione immagine"></div>
-        <div class="it-right-zone"><span class="text">Label 2 link</span>
+        <div class="it-right-zone"><span class="text">Link</span>
         </div>
       </a>
     </li>
     <li>
       <a class="list-item active" href="#">
         <div class="it-thumb"><img src="https://via.placeholder.com/40x40.png?text=40x40" alt="descrizione immagine"></div>
-        <div class="it-right-zone"><span class="text">Label link attiva</span>
+        <div class="it-right-zone"><span class="text">Link attivo</span>
         </div>
       </a>
     </li>
@@ -163,19 +163,9 @@ L'elemento `.icon` con all'interno la relativa icona segue l'elemento `.text` ch
 <div class="it-list-wrapper">
   <ul class="it-list">
     <li>
-      <div class="list-item">
-        <div class="it-right-zone">
-          <span class="text">Label 1 text</span>
-          <svg class="icon">
-            <use href="{{ site.baseurl }}/dist/svg/sprites.svg#it-chevron-right"></use>
-          </svg>
-        </div>
-      </div>
-    </li>
-    <li>
       <a href="#" class="list-item">
         <div class="it-right-zone">
-          <span class="text">Label 2 link</span>
+          <span class="text">Link</span>
           <svg class="icon">
             <use href="{{ site.baseurl }}/dist/svg/sprites.svg#it-chevron-right"></use>
           </svg>
@@ -185,7 +175,7 @@ L'elemento `.icon` con all'interno la relativa icona segue l'elemento `.text` ch
     <li>
       <a class="active list-item" href="#">
         <div class="it-right-zone">
-          <span class="text">Label link attiva</span>
+          <span class="text">Link attivo</span>
           <svg class="icon">
             <use href="{{ site.baseurl }}/dist/svg/sprites.svg#it-chevron-right"></use>
           </svg>
@@ -207,19 +197,19 @@ L'elemento `.it-multiple` con all'interno le relative icone, segue l'elemento `.
     <li>
       <div class="list-item">
         <div class="it-right-zone">
-          <span class="text">Label 1 text</span>
+          <span class="text">Testo</span>
           <span class="it-multiple">
-            <a href="#">
+            <a href="#" aria-label="Testo - Azione 1">
               <svg class="icon">
                 <use href="{{ site.baseurl }}/dist/svg/sprites.svg#it-code-circle"></use>
               </svg>
             </a>
-            <a href="#">
+            <a href="#" aria-label="Testo - Azione 2">
               <svg class="icon">
                 <use href="{{ site.baseurl }}/dist/svg/sprites.svg#it-code-circle"></use>
               </svg>
             </a>
-            <a href="#">
+            <a href="#" aria-label="Testo - Azione 3">
               <svg class="icon">
                 <use href="{{ site.baseurl }}/dist/svg/sprites.svg#it-code-circle"></use>
               </svg>
@@ -232,20 +222,20 @@ L'elemento `.it-multiple` con all'interno le relative icone, segue l'elemento `.
       <div class="list-item">
         <div class="it-right-zone">
           <a href="#">
-            <span class="text">Label 2 link</span>
+            <span class="text">Link</span>
           </a>
           <span class="it-multiple">
-            <a href="#">
+            <a href="#" aria-label="Link - Azione 1">
               <svg class="icon">
                 <use href="{{ site.baseurl }}/dist/svg/sprites.svg#it-code-circle"></use>
               </svg>
             </a>
-            <a href="#">
+            <a href="#" aria-label="Link - Azione 2">
               <svg class="icon">
                 <use href="{{ site.baseurl }}/dist/svg/sprites.svg#it-code-circle"></use>
               </svg>
             </a>
-            <a href="#">
+            <a href="#" aria-label="Link - Azione 3">
               <svg class="icon">
                 <use href="{{ site.baseurl }}/dist/svg/sprites.svg#it-code-circle"></use>
               </svg>
@@ -258,20 +248,20 @@ L'elemento `.it-multiple` con all'interno le relative icone, segue l'elemento `.
       <div class="list-item active" href="#">
         <div class="it-right-zone">
           <a href="#">
-            <span class="text">Label link attiva</span>
+            <span class="text">Link attivo</span>
           </a>
           <span class="it-multiple">
-            <a href="#">
+            <a href="#" aria-label="Link attivo - Azione 1">
               <svg class="icon">
                 <use href="{{ site.baseurl }}/dist/svg/sprites.svg#it-code-circle"></use>
               </svg>
             </a>
-            <a href="#">
+            <a href="#" aria-label="Link attivo - Azione 2">
               <svg class="icon">
                 <use href="{{ site.baseurl }}/dist/svg/sprites.svg#it-code-circle"></use>
               </svg>
             </a>
-            <a href="#">
+            <a href="#" aria-label="Link attivo - Azione 3">
               <svg class="icon">
                 <use href="{{ site.baseurl }}/dist/svg/sprites.svg#it-code-circle"></use>
               </svg>
@@ -284,7 +274,7 @@ L'elemento `.it-multiple` con all'interno le relative icone, segue l'elemento `.
 </div>
 {% endcapture %}{% include example.html content=example %}
 
-### Con toggle
+<!-- ### Con toggle
 
 L'elemento `.toggles`, segue l'elemento `.text`.
 Per attivare il javascript che attiva il funzionamento dei toggles è necessario aggiungere l'attributo `data-bs-list-checkbox`.
@@ -332,7 +322,7 @@ Per attivare il javascript che attiva il funzionamento dei toggles è necessario
   </ul>
 </div>
 {% endcapture %}{% include example.html content=example %}
-
+-->
 ## Altre variazioni
 
 ### Con metadata
@@ -347,35 +337,35 @@ L'elemento `.metadata`, segue l'elemento `.text`.
     <li>
       <div class="list-item">
         <div class="avatar size-lg"><img src="https://randomuser.me/api/portraits/women/41.jpg" alt="Anna Barbieri"></div>
-        <div class="it-right-zone"><span class="text">Label 1 text</span><span class="metadata">metadata text</span>
+        <div class="it-right-zone"><span class="text">Testo</span><span class="metadata">metadata testo</span>
         </div>
       </div>
     </li>
     <li>
       <div class="list-item">
         <div class="avatar size-lg"><img src="https://randomuser.me/api/portraits/women/41.jpg" alt="Anna Barbieri"></div>
-        <div class="it-right-zone"><span class="text">Label 2 text</span><span class="metadata"><a href="#">metadata link</a></span>
+        <div class="it-right-zone"><span class="text">Testo 2</span><span class="metadata"><a href="#">metadata link</a></span>
         </div>
       </div>
     </li>
     <li>
       <a href="#" class="list-item">
         <div class="avatar size-lg"><img src="https://randomuser.me/api/portraits/women/41.jpg" alt="Anna Barbieri"></div>
-        <div class="it-right-zone"><span class="text">Label 3 link</span><span class="metadata">metadata text</span>
+        <div class="it-right-zone"><span class="text">Link</span><span class="metadata">metadata testo</span>
         </div>
       </a>
     </li>
     <li>
       <div class="list-item">
         <div class="avatar size-lg"><img src="https://randomuser.me/api/portraits/women/41.jpg" alt="Anna Barbieri"></div>
-        <div class="it-right-zone"><a href="#"><span class="text">Label 4 link</span></a><span class="metadata"><a href="#">metadata link</a></span>
+        <div class="it-right-zone"><a href="#"><span class="text">Link 2</span></a><span class="metadata"><a href="#">metadata link</a></span>
         </div>
       </div>
     </li>
     <li>
       <a class="list-item active" href="#">
         <div class="avatar size-lg"><img src="https://randomuser.me/api/portraits/women/41.jpg" alt="Anna Barbieri"></div>
-        <div class="it-right-zone"><span class="text">Label link attiva</span><span class="metadata">metadata text</span>
+        <div class="it-right-zone"><span class="text">Link attivo</span><span class="metadata">metadata testo</span>
         </div>
       </a>
     </li>
@@ -383,7 +373,7 @@ L'elemento `.metadata`, segue l'elemento `.text`.
 </div>
 {% endcapture %}{% include example.html content=example %}
 
-### Con immagine e toggles
+<!--### Con immagine e toggles
 
 Gli elementi a destra e sinistra del testo possono essere combinati. Di seguito un esempio con immagine e toggle.  
 Per attivare il javascript che attiva il funzionamento dei toggles è necessario aggiungere l'attributo `data-bs-list-checkbox`.
@@ -434,7 +424,7 @@ Per attivare il javascript che attiva il funzionamento dei toggles è necessario
   </ul>
 </div>
 {% endcapture %}{% include example.html content=example %}
-
+-->
 ### Con testo aggiuntivo, azioni multiple e metadata
 
 Per il testo aggiuntivo, utilizzare il tag `<em>` all'interno dell'elemento `.text`.
@@ -446,20 +436,20 @@ Per il testo aggiuntivo, utilizzare il tag `<em>` all'interno dell'elemento `.te
     <li>
       <div class="list-item">
         <div class="it-right-zone">
-          <span class="text">Label 1 text<em>Font Titillium 14px. Leading 20px.</em></span>
+          <span class="text">Testo<em>Lorem ipsum dolor sit amet.</em></span>
           <span class="it-multiple">
-            <span class="metadata">metadata text</span>
-            <a href="#">
+            <span class="metadata">metadata testo</span>
+            <a href="#" aria-label="Testo - Azione 1">
               <svg class="icon">
                 <use href="{{ site.baseurl }}/dist/svg/sprites.svg#it-code-circle"></use>
               </svg>
             </a>
-            <a href="#">
+            <a href="#" aria-label="Testo - Azione 2">
               <svg class="icon">
                 <use href="{{ site.baseurl }}/dist/svg/sprites.svg#it-code-circle"></use>
               </svg>
             </a>
-            <a href="#">
+            <a href="#" aria-label="Testo - Azione 3">
               <svg class="icon">
                 <use href="{{ site.baseurl }}/dist/svg/sprites.svg#it-code-circle"></use>
               </svg>
@@ -471,20 +461,20 @@ Per il testo aggiuntivo, utilizzare il tag `<em>` all'interno dell'elemento `.te
     <li>
       <div  class="list-item">
         <div class="it-right-zone">
-          <span class="text">Label 2 text<em>Font Titillium 14px. Leading 20px.</em></span>
+          <span class="text">Testo 2<em>Lorem ipsum dolor sit amet.</em></span>
           <span class="it-multiple">
             <span class="metadata"><a href="#">metadata link</a></span>
-            <a href="#">
+            <a href="#" aria-label="Testo 2 - Azione 1">
               <svg class="icon">
                 <use href="{{ site.baseurl }}/dist/svg/sprites.svg#it-code-circle"></use>
               </svg>
             </a>
-            <a href="#">
+            <a href="#" aria-label="Testo 2 - Azione 2">
               <svg class="icon">
                 <use href="{{ site.baseurl }}/dist/svg/sprites.svg#it-code-circle"></use>
               </svg>
             </a>
-            <a href="#">
+            <a href="#" aria-label="Testo 2 - Azione 3">
               <svg class="icon">
                 <use href="{{ site.baseurl }}/dist/svg/sprites.svg#it-code-circle"></use>
               </svg>
@@ -496,20 +486,20 @@ Per il testo aggiuntivo, utilizzare il tag `<em>` all'interno dell'elemento `.te
     <li>
       <div  class="list-item">
         <div class="it-right-zone">
-          <a href="#"><span class="text">Label 3 link<em>Font Titillium 14px. Leading 20px.</em></span></a>
+          <a href="#"><span class="text">Link<em>Lorem ipsum dolor sit amet.</em></span></a>
           <span class="it-multiple">
             <span class="metadata"><a href="#">metadata link</a></span>
-            <a href="#">
+            <a href="#" aria-label="Link - Azione 1">
               <svg class="icon">
                 <use href="{{ site.baseurl }}/dist/svg/sprites.svg#it-code-circle"></use>
               </svg>
             </a>
-            <a href="#">
+            <a href="#" aria-label="Link - Azione 2">
               <svg class="icon">
                 <use href="{{ site.baseurl }}/dist/svg/sprites.svg#it-code-circle"></use>
               </svg>
             </a>
-            <a href="#">
+            <a href="#" aria-label="Link - Azione 3">
               <svg class="icon">
                 <use href="{{ site.baseurl }}/dist/svg/sprites.svg#it-code-circle"></use>
               </svg>
@@ -521,20 +511,20 @@ Per il testo aggiuntivo, utilizzare il tag `<em>` all'interno dell'elemento `.te
     <li>
       <div class="list-item active">
         <div class="it-right-zone">
-          <a href="#"><span class="text">Label link attiva<em>Font Titillium 14px. Leading 20px.</em></span></a>
+          <a href="#"><span class="text">Link attivo<em>Lorem ipsum dolor sit amet.</em></span></a>
           <span class="it-multiple">
-            <span class="metadata">metadata text</span>
-            <a href="#">
+            <span class="metadata">metadata testo</span>
+            <a href="#" aria-label="Link attivo - Azione 1">
               <svg class="icon">
                 <use href="{{ site.baseurl }}/dist/svg/sprites.svg#it-code-circle"></use>
               </svg>
             </a>
-            <a href="#">
+            <a href="#" aria-label="Link attivo - Azione 2">
               <svg class="icon">
                 <use href="{{ site.baseurl }}/dist/svg/sprites.svg#it-code-circle"></use>
               </svg>
             </a>
-            <a href="#">
+            <a href="#" aria-label="Link attivo - Azione 3">
               <svg class="icon">
                 <use href="{{ site.baseurl }}/dist/svg/sprites.svg#it-code-circle"></use>
               </svg>
@@ -547,7 +537,7 @@ Per il testo aggiuntivo, utilizzare il tag `<em>` all'interno dell'elemento `.te
 </div>
 {% endcapture %}{% include example.html content=example %}
 
-### Con testo aggiuntivo e checkbox.
+<!--### Con testo aggiuntivo e checkbox.
 
 L'elemento `.form-check` con all'interno il relativo input, precede l'elemento `.it-right-zone` che contiene il testo.  
 Per attivare il javascript che attiva il funzionamento dei checkbox è necessario aggiungere l'attributo `data-bs-list-checkbox`.
@@ -562,7 +552,7 @@ Per attivare il javascript che attiva il funzionamento dei checkbox è necessari
           <input id="idc1" type="checkbox">
           <label for="idc1"></label>
         </div>
-        <div class="it-right-zone"><span class="text">Label 1<em>Font Titillium 14px. Leading 20px.</em></span>
+        <div class="it-right-zone"><span class="text">Label 1<em>Lorem ipsum dolor sit amet.</em></span>
         </div>
       </a>
     </li>
@@ -572,7 +562,7 @@ Per attivare il javascript che attiva il funzionamento dei checkbox è necessari
           <input id="idc2" type="checkbox">
           <label for="idc2"></label>
         </div>
-        <div class="it-right-zone"><span class="text">Label 2<em>Font Titillium 14px. Leading 20px.</em></span>
+        <div class="it-right-zone"><span class="text">Label 2<em>Lorem ipsum dolor sit amet.</em></span>
         </div>
       </a>
     </li>
@@ -582,14 +572,14 @@ Per attivare il javascript che attiva il funzionamento dei checkbox è necessari
           <input id="idc3" type="checkbox">
           <label for="idc3"></label>
         </div>
-        <div class="it-right-zone"><span class="text">Label attiva<em>Font Titillium 14px. Leading 20px.</em></span>
+        <div class="it-right-zone"><span class="text">Label attiva<em>Lorem ipsum dolor sit amet.</em></span>
         </div>
       </a>
     </li>
   </ul>
 </div>
 {% endcapture %}{% include example.html content=example %}
-
+-->
 ## Liste per menù di navigazione
 
 Le liste per menù di navigazione, costituite da tag `<ul>` con classe `.link-list` all'interno di un wrapper con classe `.link-list-wrapper`, vengono utilizzate per creare le voci dei menù [Dropdown]({{site.baseurl}}/docs/componenti/dropdown/), [Megamenu]({{site.baseurl}}/docs/menu-di-navigazione/megamenu/), [Sidebar]({{site.baseurl}}/docs/menu-di-navigazione/sidebar/) e [Navscroll]({{site.baseurl}}/docs/menu-di-navigazione/navscroll/).
