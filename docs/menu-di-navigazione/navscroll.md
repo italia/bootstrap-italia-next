@@ -22,7 +22,7 @@ toc: true
 
 ## Layout della Navscroll
 
-Il componente Navscroll è una declinazione del componente Navbar `<nav class="navbar navbar-expand-lg">` con l'aggiunta della classe `.it-navscroll-wrapper` dell'attributo `data-bs-navscroll`.  
+Il componente Navscroll è una declinazione del componente Navbar `<nav class="navbar navbar-expand-lg">` con l'aggiunta della classe `.it-navscroll-wrapper` e dell'attributo `data-bs-navscroll`.  
 Nella sua versione mobile, la navigazione viene collassata all'interno di un menù, posizionabile a inizio o fine viewport.
 
 Per posizionare tale menù in alto, è sufficiente aggiungere al tag `<nav>` la classe `.it-top-navscroll`. Al contrario, per posizionare il menù in basso, è sufficiente aggiungere la classe `.it-bottom-navscroll`.
@@ -177,14 +177,14 @@ La Navscroll può mostrare una barra di avanzamento dello scorrimento del conten
 {% capture example %}
 
 <nav class="navbar it-navscroll-wrapper navbar-expand-lg it-bottom-navscroll it-right-side" data-bs-navscroll>
-  <button class="custom-navbar-toggler" type="button" aria-controls="navbarNav" aria-expanded="false"
-    aria-label="Toggle navigation" data-bs-toggle="navbarcollapsible" data-bs-target="#navbarNav">
+  <button class="custom-navbar-toggler" type="button" aria-controls="navbarNavProgress" aria-expanded="false"
+    aria-label="Toggle navigation" data-bs-toggle="navbarcollapsible" data-bs-target="#navbarNavProgress">
     <span class="it-list"></span>1. Introduzione
   </button>
   <div class="progress custom-navbar-progressbar">
     <div class="progress-bar it-navscroll-progressbar" role="progressbar" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100"></div>
   </div>
-  <div class="navbar-collapsable" id="navbarNav">
+  <div class="navbar-collapsable" id="navbarNavProgress">
     <div class="overlay"></div>
     <a class="it-back-button" href="#" role="button">
       <svg class="icon icon-sm icon-primary align-top">
@@ -323,7 +323,7 @@ La classe distintiva del wrapper esterno è `.inline-menu`.
 
 Gli inline menù possono contenere liste di link di ogni tipo; nell'esempio che segue è stata inserita una Lista di link collassabile.
 
-Per maggiori informazioni, si può fare riferimento alla [documentazione delle Liste di link]({{ site.baseurl }}/docs/organizzare-i-contenuti/liste-di-link/).
+Per maggiori informazioni, si può fare riferimento alla [documentazione delle Liste di link]({{ site.baseurl }}/docs/organizzare-i-contenuti/liste/#liste-per-menù-di-navigazione).
 
 {% capture example %}
 
