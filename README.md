@@ -1,15 +1,8 @@
-# Bootstrap Italia
-
-<!-- [![Versione](https://img.shields.io/npm/v/bootstrap-italia.svg?logo=npm)](https://github.com/italia/bootstrap-italia/releases) -->
-
-[![Build](https://github.com/italia/bootstrap-italia-next/actions/workflows/build.yml/badge.svg)](https://github.com/italia/bootstrap-italia-next/actions)
-[![GitHub issues](https://img.shields.io/github/issues/italia/bootstrap-italia-next.svg)](https://github.com/italia/bootstrap-italia-next/issues)
-[![Join the #design channel](https://img.shields.io/badge/Slack%20channel-%23design-blue.svg)](https://developersitalia.slack.com/messages/C7VPAUVB3/)
-[![Get invited](https://slack.developers.italia.it/badge.svg)](https://slack.developers.italia.it/)
+# Bootstrap Italia Next
 
 _Read this in other languages: [English](README.EN.md)._
 
-⚠️ Questo repository è in lavorazione e attualmente non è utilizzabile in produzione. Il repository sarà solo temporaneo per semplificare il lavoro. Il codice derivato, appena pronto, andrà a sostituire l'attuale codice di Bootstrap Italia.
+⚠️ Questo repository è stato deprecato. Tutto il lavoro è stato spostato sul [branch `main` di Bootstrap Italia](https://github.com/italia/bootstrap-italia/tree/main).
 
 La nuova versione di Bootstrap Italia è un tema basato su [Bootstrap 5](https://getbootstrap.com/docs/5.1/getting-started/introduction/) per la creazione di applicazioni responsive, mobile-first per il web.
 
