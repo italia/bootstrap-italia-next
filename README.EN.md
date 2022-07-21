@@ -1,15 +1,8 @@
-# Bootstrap Italia
-
-<!-- [![Version](https://img.shields.io/npm/v/bootstrap-italia.svg?logo=npm)](https://github.com/italia/bootstrap-italia/releases) -->
-
-[![Build](https://github.com/italia/bootstrap-italia-next/actions/workflows/build.yml/badge.svg)](https://github.com/italia/bootstrap-italia-next/actions)
-[![GitHub issues](https://img.shields.io/github/issues/italia/bootstrap-italia-next.svg)](https://github.com/italia/bootstrap-italia-next/issues)
-[![Join the #design channel](https://img.shields.io/badge/Slack%20channel-%23design-blue.svg)](https://developersitalia.slack.com/messages/C7VPAUVB3/)
-[![Get invited](https://slack.developers.italia.it/badge.svg)](https://slack.developers.italia.it/)
+# Bootstrap Italia Next
 
 _Read this in other languages: [Italiano](README.md)._
 
-⚠️ This project is work in progress, do not use it in production. This is a temporary repository, made to facilitate development. When it's ready, it will replace the current Bootstrap Italia code.
+⚠️ This project has been deprecated. Please check [Bootstrap Italia `main` branch](https://github.com/italia/bootstrap-italia/tree/main).
 
 New Bootstrap Italia version is a [Bootstrap 5](https://getbootstrap.com/docs/5.1/getting-started/introduction/) theme to create responsive web apps to make Italian public digital services consistent, accessible and simple to use.
 
