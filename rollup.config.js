@@ -18,6 +18,12 @@ export default [
       compact: true,
       format: 'iife',
     },
+    watch: {
+      chokidar: {
+        usePolling: true,
+        paths: 'src/**'
+      }
+    },
     plugins: [
       babel({
         babelHelpers: 'bundled',
